@@ -1,5 +1,4 @@
-import numpy as np
-
+import random
 # Helper functions for the program
 
 def generate_noise_map(noise_density : int, window_size : tuple) -> list:
@@ -95,8 +94,6 @@ def next_cell_frame(map_state : list) -> list:
             next_frame[-1][i] = 1
 
     # Then we check everything else
-
-    print(np.matrix(map_state))
 
     for j in range(1, len(map_state) - 1):
         for i in range(1, len(map_state[0]) - 1 ):
