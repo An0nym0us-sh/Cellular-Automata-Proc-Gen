@@ -22,4 +22,5 @@ To a finished looking map of a cave:
 
 
 An animation of the program running:
+
 ![A visual demonstration of how we go from the first image to 2nd image](https://github.com/An0nym0us-sh/Cellular-Automata-Proc-Gen/blob/master/screenshots/2.gif) 
