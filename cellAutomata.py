@@ -1,6 +1,7 @@
 import pygame
 import logging as log
 import random
+import funcs
 
 log.basicConfig(level=log.DEBUG)
 
